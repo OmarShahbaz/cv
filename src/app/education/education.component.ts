@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class EducationComponent {
 
+  public education : string = "education";
+
+  educationTitle(){
+    return this.education.toUpperCase();
+  }
 }

@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
 
+  public projects : string = "projects";
+
+  constructor(){}
+
+  projectTitle(): string{
+    return this.projects.toUpperCase();
+  }
 }

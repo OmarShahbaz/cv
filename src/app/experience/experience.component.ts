@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class ExperienceComponent {
 
+  public experience : string = "experience";
+
+  experienceTitle(){
+    return this.experience.toUpperCase();
+  }
+
 }

@@ -13,5 +13,8 @@ export class HeaderComponent{
     socialLink : string = "https://www.linkedin.com/in/omar-shahbaz/";
     location : string = "Islamabad, Pakistan";
 
+    userName():string {
+        return this.name.toUpperCase();
+    }
 
 }
