@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class LanguagesComponent {
 
+  public language : string = "Languages";
+
+  languageTitle(){
+    return this.language.toUpperCase();
+  }
 }

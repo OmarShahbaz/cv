@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class CertificationsComponent {
 
+  public certifications : string = "certifications";
+
+  constructor(){}
+
+  certificationTitle(): string {
+    return this.certifications.toUpperCase();
+  }
 }

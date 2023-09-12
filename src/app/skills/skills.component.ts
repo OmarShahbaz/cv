@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
 
+  public skills : string = "skills";
+
+  skillsTitle(){
+    return this.skills.toUpperCase();
+  }
 }
